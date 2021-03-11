@@ -3,7 +3,8 @@ module.exports = {
         'plugin:vue/essential'
     ],
     rules : {
-        'indent' : ["error", 4, {
+        'comma-dangle' : ["error", "always-multiline"],
+        'indent'       : ["error", 4, {
             ignoreComments : true,
             SwitchCase     : 1,
             ignoredNodes   : ["ConditionalExpression"]
